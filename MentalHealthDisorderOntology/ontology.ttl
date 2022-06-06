@@ -1,0 +1,3311 @@
+@prefix : <http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#> .
+
+<http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhasfactor1
+:AdDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AdDhasfactors ;
+               rdfs:domain :Adjustment_Disorders_Factors ;
+               rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhasfactor2
+:AdDhasfactor2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AdDhasfactors ;
+               rdfs:domain :Adjustment_Disorders_Factors ;
+               rdfs:range :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhasfactors
+:AdDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Adjustment_Disorders ;
+               rdfs:range :Adjustment_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhassymptom1
+:AdDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AdDhassymptoms ;
+                rdfs:domain :Adjustment_Disorders_Symptoms ;
+                rdfs:range :Behavioral_issues .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhassymptom2
+:AdDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AdDhassymptoms ;
+                rdfs:domain :Adjustment_Disorders_Symptoms ;
+                rdfs:range :Emotional_issues .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhassymptom3
+:AdDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AdDhassymptoms ;
+                rdfs:domain :Adjustment_Disorders_Symptoms ;
+                rdfs:range :Behavioral_issues .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhassymptoms
+:AdDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Adjustment_Disorders ;
+                rdfs:range :Adjustment_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastreatment
+:AdDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Adjustment_Disorders ;
+                 rdfs:range :Adjustment_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastreatment1
+:AdDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :AdDhastreatment ;
+                  rdfs:domain :Adjustment_Disorders_Treatments ;
+                  rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastreatment2
+:AdDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :AdDhastreatment ;
+                  rdfs:domain :Adjustment_Disorders_Treatments ;
+                  rdfs:range :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastype1
+:AdDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AdDhastypes ;
+             rdfs:domain :Adjustment_Disorder_types ;
+             rdfs:range :AD_unspecified .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastype2
+:AdDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AdDhastypes ;
+             rdfs:domain :Adjustment_Disorder_types ;
+             rdfs:range :AD_with_anxiety .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastype3
+:AdDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AdDhastypes ;
+             rdfs:domain :Adjustment_Disorder_types ;
+             rdfs:range :AD_with_depressed_mood .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastype4
+:AdDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AdDhastypes ;
+             rdfs:domain :Adjustment_Disorder_types ;
+             rdfs:range :AD_with_disturbance_of_conduct .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AdDhastypes
+:AdDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Adjustment_Disorders ;
+             rdfs:range :Adjustment_Disorder_types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhasfactor1
+:AnDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AnDhasfactors ;
+               rdfs:domain :Anixety_Disorders_Factors ;
+               rdfs:range :Respiratory_Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhasfactor2
+:AnDhasfactor2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AnDhasfactors ;
+               rdfs:domain :Anixety_Disorders_Factors ;
+               rdfs:range :Heart_Disease .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhasfactor3
+:AnDhasfactor3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AnDhasfactors ;
+               rdfs:domain :Anixety_Disorders_Factors ;
+               rdfs:range :IBS .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhasfactor4
+:AnDhasfactor4 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :AnDhasfactors ;
+               rdfs:domain :Anixety_Disorders_Factors ;
+               rdfs:range :Cerebral_Tumours .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhasfactors
+:AnDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Anixety_Disorders ;
+               rdfs:range :Anixety_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom1
+:AnDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Breathing_rapidly .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom2
+:AnDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Difficulty_in_controlling_worry .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom3
+:AnDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Increased_Heart_Rate .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom4
+:AnDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Nervous .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom5
+:AnDhassymptom5 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Sence_of_impeding_danger .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom6
+:AnDhassymptom6 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Sweating .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptom7
+:AnDhassymptom7 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :AnDhassymptoms ;
+                rdfs:domain :Anixety_Disorders_Symptoms ;
+                rdfs:range :Trouble_on_sleeping .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhassymptoms
+:AnDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Anixety_Disorders ;
+                rdfs:range :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastreatment
+:AnDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Anixety_Disorders ;
+                 rdfs:range :Anixety_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastreatment1
+:AnDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :AnDhastreatment ;
+                  rdfs:domain :Anixety_Disorders_Treatments ;
+                  rdfs:range :Anti_Aniexty .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastreatment2
+:AnDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :AnDhastreatment ;
+                  rdfs:domain :Anixety_Disorders_Treatments ;
+                  rdfs:range :Anti_Depressant .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastreatment3
+:AnDhastreatment3 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :AnDhastreatment ;
+                  rdfs:domain :Anixety_Disorders_Treatments ;
+                  rdfs:range :Beta_Blockers .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastype1
+:AnDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AnDhastypes ;
+             rdfs:domain :Anxiety_Disorder_Types ;
+             rdfs:range :Agrophobia .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastype2
+:AnDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AnDhastypes ;
+             rdfs:domain :Anxiety_Disorder_Types ;
+             rdfs:range :Panic_Disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastype3
+:AnDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AnDhastypes ;
+             rdfs:domain :Anxiety_Disorder_Types ;
+             rdfs:range :Selective_mutism .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastype4
+:AnDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AnDhastypes ;
+             rdfs:domain :Anxiety_Disorder_Types ;
+             rdfs:range :Social_anxiety_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastype5
+:AnDhastype5 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :AnDhastypes ;
+             rdfs:domain :Anxiety_Disorder_Types ;
+             rdfs:range :Specific_phobias .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AnDhastypes
+:AnDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Anixety_Disorders ;
+             rdfs:range :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhasfactor1
+:CDhasfactor1 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :CDhasfactors ;
+              rdfs:domain :Childhood_Disorders_Factors ;
+              rdfs:range :Genetics .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhasfactor2
+:CDhasfactor2 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :CDhasfactors ;
+              rdfs:domain :Childhood_Disorders_Factors ;
+              rdfs:range :Emotions .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhasfactor3
+:CDhasfactor3 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :CDhasfactors ;
+              rdfs:domain :Childhood_Disorders_Factors ;
+              rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhasfactors
+:CDhasfactors rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Has_Factors ;
+              rdfs:domain :Childhood_Disorders ;
+              rdfs:range :Childhood_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhastreatment1
+:CDhastreatment1 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :CdDhastreatment ;
+                 rdfs:domain :Childhood_Disorders_Treatments ;
+                 rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CDhastreatment2
+:CDhastreatment2 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :CdDhastreatment ;
+                 rdfs:domain :Childhood_Disorders_Treatments ;
+                 rdfs:range :Group_Family_Therapies .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhassymptom1
+:CdDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CdDhassymptoms ;
+                rdfs:domain :Childhood_Disorders_Symptoms ;
+                rdfs:range :Agressive .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhassymptom2
+:CdDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CdDhassymptoms ;
+                rdfs:domain :Childhood_Disorders_Symptoms ;
+                rdfs:range :Deceitful .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhassymptom3
+:CdDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CdDhassymptoms ;
+                rdfs:domain :Childhood_Disorders_Symptoms ;
+                rdfs:range :Destructive .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhassymptom4
+:CdDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CdDhassymptoms ;
+                rdfs:domain :Childhood_Disorders_Symptoms ;
+                rdfs:range :Voilation_of_rules .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhassymptoms
+:CdDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Childhood_Disorders ;
+                rdfs:range :Childhood_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastreatment
+:CdDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Childhood_Disorders ;
+                 rdfs:range :Childhood_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype1
+:CdDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Anxiety_Disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype2
+:CdDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Attention_Defict .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype3
+:CdDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Autism .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype4
+:CdDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Bipolar .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype5
+:CdDhastype5 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Conduct_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype6
+:CdDhastype6 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Depression .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastype7
+:CdDhastype7 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CdDhastypes ;
+             rdfs:domain :Childhood_Disorder_Types ;
+             rdfs:range :Hyperactivity_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CdDhastypes
+:CdDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Childhood_Disorders ;
+             rdfs:range :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactor1
+:CoDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :CoDhasfactors ;
+               rdfs:domain :Coginitive_Disorders_Factors ;
+               rdfs:range :Sleep_Disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactor2
+:CoDhasfactor2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :CoDhasfactors ;
+               rdfs:domain :Coginitive_Disorders_Factors ;
+               rdfs:range :Liver_Disease .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactor3
+:CoDhasfactor3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :CoDhasfactors ;
+               rdfs:domain :Coginitive_Disorders_Factors ;
+               rdfs:range :Kidney_Problem .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactor4
+:CoDhasfactor4 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :CoDhasfactors ;
+               rdfs:domain :Coginitive_Disorders_Factors ;
+               rdfs:range :Vitamin_B_Deficiency .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactor5
+:CoDhasfactor5 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :CoDhasfactors ;
+               rdfs:domain :Coginitive_Disorders_Factors ;
+               rdfs:range :Cerebral_Tumours .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhasfactors
+:CoDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Coginitive_Disorders ;
+               rdfs:range :Coginitive_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhassymptom1
+:CoDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CoDhassymptoms ;
+                rdfs:domain :Coginitive_Disorders_Symptoms ;
+                rdfs:range :Complex_decision_making .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhassymptom2
+:CoDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CoDhassymptoms ;
+                rdfs:domain :Coginitive_Disorders_Symptoms ;
+                rdfs:range :Language_problem .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhassymptom3
+:CoDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CoDhassymptoms ;
+                rdfs:domain :Coginitive_Disorders_Symptoms ;
+                rdfs:range :Loss_of_attention .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhassymptom4
+:CoDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :CoDhassymptoms ;
+                rdfs:domain :Coginitive_Disorders_Symptoms ;
+                rdfs:range :Memory_Loss .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhassymptoms
+:CoDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Coginitive_Disorders ;
+                rdfs:range :Coginitive_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastreatment
+:CoDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Coginitive_Disorders ;
+                 rdfs:range :Coginitive_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastreatment1
+:CoDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :CoDhastreatment ;
+                  rdfs:domain :Coginitive_Disorders_Treatments ;
+                  rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastype1
+:CoDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CoDhastypes ;
+             rdfs:domain :Cognitive_Disorder_Types ;
+             rdfs:range :Delirium .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastype2
+:CoDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CoDhastypes ;
+             rdfs:domain :Cognitive_Disorder_Types ;
+             rdfs:range :Major_Neurocognitive_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastype3
+:CoDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :CoDhastypes ;
+             rdfs:domain :Cognitive_Disorder_Types ;
+             rdfs:range :Mild_Neurocognitive_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#CoDhastypes
+:CoDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Coginitive_Disorders ;
+             rdfs:range :Cognitive_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDDhasfactor1
+:DDDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhasfactors ;
+               rdfs:domain :Dissociative_Disorders_Factors ;
+               rdfs:range :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhasfactor2
+:DDhasfactor2 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :DDhasfactors ;
+              rdfs:domain :Dissociative_Disorders_Factors ;
+              rdfs:range :Social .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhasfactor3
+:DDhasfactor3 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :DDhasfactors ;
+              rdfs:domain :Dissociative_Disorders_Factors ;
+              rdfs:range :Emotions .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhasfactors
+:DDhasfactors rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Has_Factors ;
+              rdfs:domain :Dissociative_Disorders ;
+              rdfs:range :Dissociative_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptom1
+:DDhassymptom1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhassymptoms ;
+               rdfs:domain :Dissociative_Disorders_Symptoms ;
+               rdfs:range :Blurred_sence_of_identity .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptom2
+:DDhassymptom2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhassymptoms ;
+               rdfs:domain :Dissociative_Disorders_Symptoms ;
+               rdfs:range :Inability_to_cope_with_stress .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptom3
+:DDhassymptom3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhassymptoms ;
+               rdfs:domain :Dissociative_Disorders_Symptoms ;
+               rdfs:range :Mental_Health_problem .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptom4
+:DDhassymptom4 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhassymptoms ;
+               rdfs:domain :Dissociative_Disorders_Symptoms ;
+               rdfs:range :Ongoing_gaps_in_memory .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptom5
+:DDhassymptom5 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :DDhassymptoms ;
+               rdfs:domain :Dissociative_Disorders_Symptoms ;
+               rdfs:range :Significant_distress .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhassymptoms
+:DDhassymptoms rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Symptoms ;
+               rdfs:domain :Dissociative_Disorders ;
+               rdfs:range :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastreatment
+:DDhastreatment rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Treatments ;
+                rdfs:domain :Dissociative_Disorders ;
+                rdfs:range :Dissociative_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastreatment1
+:DDhastreatment1 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :DDhastreatment ;
+                 rdfs:domain :Dissociative_Disorders_Treatments ;
+                 rdfs:range :Anti_Aniexty .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastreatment2
+:DDhastreatment2 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :DDhastreatment ;
+                 rdfs:domain :Dissociative_Disorders_Treatments ;
+                 rdfs:range :Anti_Depressant .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastreatment3
+:DDhastreatment3 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :DDhastreatment ;
+                 rdfs:domain :Dissociative_Disorders_Treatments ;
+                 rdfs:range :Anti_phsychotic .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastreatment4
+:DDhastreatment4 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :DDhastreatment ;
+                 rdfs:domain :Dissociative_Disorders_Treatments ;
+                 rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastype1
+:DDhastype1 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :DDhastypes ;
+            rdfs:domain :Dissociative_Disorder_Types ;
+            rdfs:range :Depersonalization .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastype2
+:DDhastype2 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :DDhastypes ;
+            rdfs:domain :Dissociative_Disorder_Types ;
+            rdfs:range :Derealization .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastype3
+:DDhastype3 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :DDhastypes ;
+            rdfs:domain :Dissociative_Disorder_Types ;
+            rdfs:range :Dissociative_amnesia .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastype4
+:DDhastype4 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :DDhastypes ;
+            rdfs:domain :Dissociative_Disorder_Types ;
+            rdfs:range :Dissociative_identity_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#DDhastypes
+:DDhastypes rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :Has_Types ;
+            rdfs:domain :Dissociative_Disorders ;
+            rdfs:range :Dissociative_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhasfactor1
+:EDhasfactor1 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :EDhasfactors ;
+              rdfs:domain :Eating_Disorders_Factors ;
+              rdfs:range :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhasfactor2
+:EDhasfactor2 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :EDhasfactors ;
+              rdfs:domain :Eating_Disorders_Factors ;
+              rdfs:range :Emotions .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhasfactors
+:EDhasfactors rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Has_Factors ;
+              rdfs:domain :Eating_Disorders ;
+              rdfs:range :Eating_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom1
+:EDhassymptom1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Binge .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom2
+:EDhassymptom2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Body_image .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom3
+:EDhassymptom3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Changing_in_clothing_style .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom4
+:EDhassymptom4 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Deiting .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom5
+:EDhassymptom5 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Excessive_exercise .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom6
+:EDhassymptom6 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Purging .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptom7
+:EDhassymptom7 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :EDhassymptoms ;
+               rdfs:domain :Eating_Disorders_Symptoms ;
+               rdfs:range :Social_withdrawl .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhassymptoms
+:EDhassymptoms rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Symptoms ;
+               rdfs:domain :Eating_Disorders ;
+               rdfs:range :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastreatment
+:EDhastreatment rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Treatments ;
+                rdfs:domain :Eating_Disorders ;
+                rdfs:range :Eating_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastreatment1
+:EDhastreatment1 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :EDhastreatment ;
+                 rdfs:domain :Eating_Disorders_Treatments ;
+                 rdfs:range :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastreatment2
+:EDhastreatment2 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :EDhastreatment ;
+                 rdfs:domain :Eating_Disorders_Treatments ;
+                 rdfs:range :Group_Family_Therapies .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastreatment3
+:EDhastreatment3 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :EDhastreatment ;
+                 rdfs:domain :Eating_Disorders_Treatments ;
+                 rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype1
+:EDhastype1 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Anorxia_Nervosa .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype2
+:EDhastype2 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Binge_Eating .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype3
+:EDhastype3 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Bulima_Nervosa .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype4
+:EDhastype4 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Pica .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype5
+:EDhastype5 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Reatrictive_food_intake .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastype6
+:EDhastype6 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :EDhastypes ;
+            rdfs:domain :Eating_Disorder_Types ;
+            rdfs:range :Rumination_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#EDhastypes
+:EDhastypes rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :Has_Types ;
+            rdfs:domain :Eating_Disorders ;
+            rdfs:range :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhasfactor1
+:FDhasfactor1 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :FDhasfactors ;
+              rdfs:domain :Factitious_Disorders_Factors ;
+              rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhasfactor2
+:FDhasfactor2 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :FDhasfactors ;
+              rdfs:domain :Factitious_Disorders_Factors ;
+              rdfs:range :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhasfactors
+:FDhasfactors rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Has_Factors ;
+              rdfs:domain :Factitious_Disorders ;
+              rdfs:range :Factitious_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhassymptom1
+:FDhassymptom1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :FDhassymptoms ;
+               rdfs:domain :Factitious_Disorders_Symptoms ;
+               rdfs:range :Alter_Diagnostic_tests .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhassymptom2
+:FDhassymptom2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :FDhassymptoms ;
+               rdfs:domain :Factitious_Disorders_Symptoms ;
+               rdfs:range :Hurt_themselves .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhassymptom3
+:FDhassymptom3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :FDhassymptoms ;
+               rdfs:domain :Factitious_Disorders_Symptoms ;
+               rdfs:range :Mimic_symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhassymptoms
+:FDhassymptoms rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Symptoms ;
+               rdfs:domain :Factitious_Disorders ;
+               rdfs:range :Factitious_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastreatment
+:FDhastreatment rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Treatments ;
+                rdfs:domain :Factitious_Disorders ;
+                rdfs:range :Factitious_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastreatment1
+:FDhastreatment1 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :FDhastreatment ;
+                 rdfs:domain :Factitious_Disorders_Treatments ;
+                 rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastreatment2
+:FDhastreatment2 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :FDhastreatment ;
+                 rdfs:domain :Factitious_Disorders_Treatments ;
+                 rdfs:range :Group_Family_Therapies .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastype1
+:FDhastype1 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :FDhastypes ;
+            rdfs:domain :Factitious_Disorder_Types ;
+            rdfs:range :Imposed_on_other .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastype2
+:FDhastype2 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :FDhastypes ;
+            rdfs:domain :Factitious_Disorder_Types ;
+            rdfs:range :Imposed_on_self .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#FDhastypes
+:FDhastypes rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :Has_Types ;
+            rdfs:domain :Factitious_Disorders ;
+            rdfs:range :Factitious_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Has_Factors
+:Has_Factors rdf:type owl:ObjectProperty ;
+             rdfs:domain :Disorders ;
+             rdfs:range :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Has_Symptoms
+:Has_Symptoms rdf:type owl:ObjectProperty ;
+              rdfs:domain :Disorders ;
+              rdfs:range :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Has_Treatments
+:Has_Treatments rdf:type owl:ObjectProperty ;
+                rdfs:domain :Disorders ;
+                rdfs:range :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Has_Types
+:Has_Types rdf:type owl:ObjectProperty ;
+           rdfs:domain :Disorders ;
+           rdfs:range :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhasfactor1
+:ICDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :ICDhasfactors ;
+               rdfs:domain :Impulse_Control_Disorders_Factors ;
+               rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhasfactors
+:ICDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Impulse_Control_Disorders ;
+               rdfs:range :Impulse_Control_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom1
+:ICDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Disagreeable .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom2
+:ICDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Easily_frustrated .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom3
+:ICDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Guilty_after_stealing .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom4
+:ICDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Irritable .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom5
+:ICDhassymptom5 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Lying_to_people .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom6
+:ICDhassymptom6 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Manipulative .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptom7
+:ICDhassymptom7 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :ICDhassymptoms ;
+                rdfs:domain :Impulse_Control_Disorders_Symptoms ;
+                rdfs:range :Physical_Outbrust .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhassymptoms
+:ICDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Impulse_Control_Disorders ;
+                rdfs:range :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastreatment
+:ICDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Impulse_Control_Disorders ;
+                 rdfs:range :Impulse_Control_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastreatment1
+:ICDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :ICDhastreatment ;
+                  rdfs:domain :Impulse_Control_Disorders_Treatments ;
+                  rdfs:range :Group_Family_Therapies .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastreatment2
+:ICDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :ICDhastreatment ;
+                  rdfs:domain :Impulse_Control_Disorders_Treatments ;
+                  rdfs:range :Rehabilation .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastype1
+:ICDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :ICDhastypes ;
+             rdfs:domain :Impulsive_Control_Disorder_Types ;
+             rdfs:range :Conduct_Disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastype2
+:ICDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :ICDhastypes ;
+             rdfs:domain :Impulsive_Control_Disorder_Types ;
+             rdfs:range :Intermittent_explosive_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastype3
+:ICDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :ICDhastypes ;
+             rdfs:domain :Impulsive_Control_Disorder_Types ;
+             rdfs:range :Kleptomania .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastype4
+:ICDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :ICDhastypes ;
+             rdfs:domain :Impulsive_Control_Disorder_Types ;
+             rdfs:range :Oppositional_defiant_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastype5
+:ICDhastype5 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :ICDhastypes ;
+             rdfs:domain :Impulsive_Control_Disorder_Types ;
+             rdfs:range :Pyromania .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#ICDhastypes
+:ICDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Impulse_Control_Disorders ;
+             rdfs:range :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhasfactor1
+:MDhasfactor1 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :MDhasfactors ;
+              rdfs:domain :Mood_Disorders_Factors ;
+              rdfs:range :Stress .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhasfactor2
+:MDhasfactor2 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :MDhasfactors ;
+              rdfs:domain :Mood_Disorders_Factors ;
+              rdfs:range :Diabaties .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhasfactor3
+:MDhasfactor3 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :MDhasfactors ;
+              rdfs:domain :Mood_Disorders_Factors ;
+              rdfs:range :Heart_Disease .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhasfactor4
+:MDhasfactor4 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :MDhasfactors ;
+              rdfs:domain :Mood_Disorders_Factors ;
+              rdfs:range :Trauma .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhasfactors
+:MDhasfactors rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Has_Factors ;
+              rdfs:domain :Mood_Disorders ;
+              rdfs:range :Mood_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom1
+:MDhassymptom1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Agiation .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom2
+:MDhassymptom2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Feeling_sad .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom3
+:MDhassymptom3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Extremely_energized .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom4
+:MDhassymptom4 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Feeling_worthless .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom5
+:MDhassymptom5 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Jumpy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom6
+:MDhassymptom6 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Lack_of_appetite .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom7
+:MDhassymptom7 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Lack_of_energy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom8
+:MDhassymptom8 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Sleep_disturbance .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptom9
+:MDhassymptom9 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :MDhassymptoms ;
+               rdfs:domain :Mood_Disorders_Sypmtoms ;
+               rdfs:range :Weight_change .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhassymptoms
+:MDhassymptoms rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Symptoms ;
+               rdfs:domain :Mood_Disorders ;
+               rdfs:range :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastreatment
+:MDhastreatment rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Treatments ;
+                rdfs:domain :Mood_Disorders ;
+                rdfs:range :Mood_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastreatment1
+:MDhastreatment1 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :MDhastreatment ;
+                 rdfs:domain :Mood_Disorders_Treatments ;
+                 rdfs:range :Anti_Aniexty .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastreatment2
+:MDhastreatment2 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :MDhastreatment ;
+                 rdfs:domain :Mood_Disorders_Treatments ;
+                 rdfs:range :Anti_Depressant .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastreatment3
+:MDhastreatment3 rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :MDhastreatment ;
+                 rdfs:domain :Mood_Disorders_Treatments ;
+                 rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastype1
+:MDhastype1 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :MDhastypes ;
+            rdfs:domain :Mood_Disorder_Types ;
+            rdfs:range :Bipolar_I .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastype2
+:MDhastype2 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :MDhastypes ;
+            rdfs:domain :Mood_Disorder_Types ;
+            rdfs:range :Bipolar_II .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastype3
+:MDhastype3 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :MDhastypes ;
+            rdfs:domain :Mood_Disorder_Types ;
+            rdfs:range :Cylothymic .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastype4
+:MDhastype4 rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :MDhastypes ;
+            rdfs:domain :Mood_Disorder_Types ;
+            rdfs:range :Major_Depression .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#MDhastypes
+:MDhastypes rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :Has_Types ;
+            rdfs:domain :Mood_Disorders ;
+            rdfs:range :Mood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhasfactor1
+:PrDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :PrDhasfactors ;
+               rdfs:domain :Personality_Disorders_Factors ;
+               rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhasfactor2
+:PrDhasfactor2 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :PrDhasfactors ;
+               rdfs:domain :Personality_Disorders_Factors ;
+               rdfs:range :Emotions .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhasfactor3
+:PrDhasfactor3 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :PrDhasfactors ;
+               rdfs:domain :Personality_Disorders_Factors ;
+               rdfs:range :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhasfactors
+:PrDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Personality_Disorders ;
+               rdfs:range :Personality_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptom1
+:PrDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PrDhassymptoms ;
+                rdfs:domain :Personality_Disorders_Symptoms ;
+                rdfs:range :Difficulty_in_relationships .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptom2
+:PrDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PrDhassymptoms ;
+                rdfs:domain :Personality_Disorders_Symptoms ;
+                rdfs:range :Mood_swings .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptom3
+:PrDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PrDhassymptoms ;
+                rdfs:domain :Personality_Disorders_Symptoms ;
+                rdfs:range :Strange_behaviour .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptom4
+:PrDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PrDhassymptoms ;
+                rdfs:domain :Personality_Disorders_Symptoms ;
+                rdfs:range :Suspicion .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptom5
+:PrDhassymptom5 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PrDhassymptoms ;
+                rdfs:domain :Personality_Disorders_Symptoms ;
+                rdfs:range :Taking_risks .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhassymptoms
+:PrDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Personality_Disorders ;
+                rdfs:range :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastreatment
+:PrDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Personality_Disorders ;
+                 rdfs:range :Personality_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastreatment1
+:PrDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :PrDhastreatment ;
+                  rdfs:domain :Personality_Disorders_Treatments ;
+                  rdfs:range :Anti_Aniexty .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastreatment2
+:PrDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :PrDhastreatment ;
+                  rdfs:domain :Personality_Disorders_Treatments ;
+                  rdfs:range :Anti_Depressant .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastreatment3
+:PrDhastreatment3 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :PrDhastreatment ;
+                  rdfs:domain :Personality_Disorders_Treatments ;
+                  rdfs:range :Anti_phsychotic .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype1
+:PrDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Anti-social_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype10
+:PrDhastype10 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :PrDhastypes ;
+              rdfs:domain :Personality_Disorder_Types ;
+              rdfs:range :Schizotypal_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype2
+:PrDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Avoidant_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype3
+:PrDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Boderline_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype4
+:PrDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Depandant_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype5
+:PrDhastype5 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Histrionoic_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype6
+:PrDhastype6 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Narcissistic_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype7
+:PrDhastype7 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Obsessive_Compulsive_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype8
+:PrDhastype8 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Paranoid_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastype9
+:PrDhastype9 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PrDhastypes ;
+             rdfs:domain :Personality_Disorder_Types ;
+             rdfs:range :Schizoid_PD .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PrDhastypes
+:PrDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Personality_Disorders ;
+             rdfs:range :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhasfactor1
+:PsDhasfactor1 rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :PsDhasfactors ;
+               rdfs:domain :Psychotic_Disorders_Factors ;
+               rdfs:range :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhasfactors
+:PsDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Psychotic_Disorders ;
+               rdfs:range :Psychotic_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptom1
+:PsDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PsDhassymptoms ;
+                rdfs:domain :Psychotic_Disorders_Symptoms ;
+                rdfs:range :Confused_thinking .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptom2
+:PsDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PsDhassymptoms ;
+                rdfs:domain :Psychotic_Disorders_Symptoms ;
+                rdfs:range :Delusions .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptom3
+:PsDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PsDhassymptoms ;
+                rdfs:domain :Psychotic_Disorders_Symptoms ;
+                rdfs:range :Hallusinations .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptom4
+:PsDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PsDhassymptoms ;
+                rdfs:domain :Psychotic_Disorders_Symptoms ;
+                rdfs:range :Loss_of_personal_hygeine .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptom5
+:PsDhassymptom5 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :PsDhassymptoms ;
+                rdfs:domain :Psychotic_Disorders_Symptoms ;
+                rdfs:range :Unusual_movements .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhassymptoms
+:PsDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Psychotic_Disorders ;
+                rdfs:range :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastreatment
+:PsDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Psychotic_Disorders ;
+                 rdfs:range :Psychotic_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastreatment1
+:PsDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :PsDhastreatment ;
+                  rdfs:domain :Psychotic_Disorders_Treatments ;
+                  rdfs:range :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastreatment2
+:PsDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :PsDhastreatment ;
+                  rdfs:domain :Psychotic_Disorders_Treatments ;
+                  rdfs:range :Anti_phsychotic .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastype1
+:PsDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PsDhastypes ;
+             rdfs:domain :Psycotic_Disorder_Types ;
+             rdfs:range :Schizoaffective_Disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastype2
+:PsDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PsDhastypes ;
+             rdfs:domain :Psycotic_Disorder_Types ;
+             rdfs:range :Schizopherenia .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastype3
+:PsDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :PsDhastypes ;
+             rdfs:domain :Psycotic_Disorder_Types ;
+             rdfs:range :Schizophereniform .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#PsDhastypes
+:PsDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Psychotic_Disorders ;
+             rdfs:range :Psycotic_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SDhasfactor1
+:SDhasfactor1 rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :SoDhasfactors ;
+              rdfs:domain :Somatoform_Disorders_Factors ;
+              rdfs:range :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhasfactors
+:SoDhasfactors rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Has_Factors ;
+               rdfs:domain :Somatoform_Disorders ;
+               rdfs:range :Somatoform_Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom1
+:SoDhassymptom1 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Blindness .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom2
+:SoDhassymptom2 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Hearing_Loss .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom3
+:SoDhassymptom3 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Numbness .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom4
+:SoDhassymptom4 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Paralysis .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom5
+:SoDhassymptom5 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Seizures .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptom6
+:SoDhassymptom6 rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :SoDhassymptoms ;
+                rdfs:domain :Somatoform_Disorders_Treatments ;
+                rdfs:range :Weakness .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhassymptoms
+:SoDhassymptoms rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :Has_Symptoms ;
+                rdfs:domain :Somatoform_Disorders ;
+                rdfs:range :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastreatment
+:SoDhastreatment rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :Has_Treatments ;
+                 rdfs:domain :Somatoform_Disorders ;
+                 rdfs:range :Somatoform_Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastreatment1
+:SoDhastreatment1 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :SoDhastreatment ;
+                  rdfs:domain :Somatoform_Disorder_Treatments ;
+                  rdfs:range :Group_Family_Therapies .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastreatment2
+:SoDhastreatment2 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :SoDhastreatment ;
+                  rdfs:domain :Somatoform_Disorder_Treatments ;
+                  rdfs:range :Behavioral_therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastreatment3
+:SoDhastreatment3 rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :SoDhastreatment ;
+                  rdfs:domain :Somatoform_Disorder_Treatments ;
+                  rdfs:range :Cognitive_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastype1
+:SoDhastype1 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :SoDhastypes ;
+             rdfs:domain :Somatoform_Disorder_Types ;
+             rdfs:range :Conversion_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastype2
+:SoDhastype2 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :SoDhastypes ;
+             rdfs:domain :Somatoform_Disorder_Types ;
+             rdfs:range :Hypochondriasis .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastype3
+:SoDhastype3 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :SoDhastypes ;
+             rdfs:domain :Somatoform_Disorder_Types ;
+             rdfs:range :Pain_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastype4
+:SoDhastype4 rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :SoDhastypes ;
+             rdfs:domain :Somatoform_Disorder_Types ;
+             rdfs:range :Somatization_disorder .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#SoDhastypes
+:SoDhastypes rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :Has_Types ;
+             rdfs:domain :Somatoform_Disorders ;
+             rdfs:range :Somatoform_Disorder_Types .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AD_unspecified
+:AD_unspecified rdf:type owl:Class ;
+                rdfs:subClassOf :Adjustment_Disorder_types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AD_with_anxiety
+:AD_with_anxiety rdf:type owl:Class ;
+                 rdfs:subClassOf :Adjustment_Disorder_types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AD_with_depressed_mood
+:AD_with_depressed_mood rdf:type owl:Class ;
+                        rdfs:subClassOf :Adjustment_Disorder_types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#AD_with_disturbance_of_conduct
+:AD_with_disturbance_of_conduct rdf:type owl:Class ;
+                                rdfs:subClassOf :Adjustment_Disorder_types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Adjustment_Disorder_types
+:Adjustment_Disorder_types rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Adjustment_Disorders
+:Adjustment_Disorders rdf:type owl:Class ;
+                      rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Adjustment_Disorders_Factors
+:Adjustment_Disorders_Factors rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Adjustment_Disorders_Symptoms
+:Adjustment_Disorders_Symptoms rdf:type owl:Class ;
+                               rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Adjustment_Disorders_Treatments
+:Adjustment_Disorders_Treatments rdf:type owl:Class ;
+                                 rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agiation
+:Agiation rdf:type owl:Class ;
+          rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agressive
+:Agressive rdf:type owl:Class ;
+           rdfs:subClassOf :Childhood_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agrophobia
+:Agrophobia rdf:type owl:Class ;
+            rdfs:subClassOf :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Alter_Diagnostic_tests
+:Alter_Diagnostic_tests rdf:type owl:Class ;
+                        rdfs:subClassOf :Factitious_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anixety_Disorders
+:Anixety_Disorders rdf:type owl:Class ;
+                   rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anixety_Disorders_Factors
+:Anixety_Disorders_Factors rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anixety_Disorders_Symptoms
+:Anixety_Disorders_Symptoms rdf:type owl:Class ;
+                            rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anixety_Disorders_Treatments
+:Anixety_Disorders_Treatments rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anorxia_Nervosa
+:Anorxia_Nervosa rdf:type owl:Class ;
+                 rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anti-social_PD
+:Anti-social_PD rdf:type owl:Class ;
+                rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anti_Aniexty
+:Anti_Aniexty rdf:type owl:Class ;
+              rdfs:subClassOf :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anti_Depressant
+:Anti_Depressant rdf:type owl:Class ;
+                 rdfs:subClassOf :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anti_Manic
+:Anti_Manic rdf:type owl:Class ;
+            rdfs:subClassOf :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anti_phsychotic
+:Anti_phsychotic rdf:type owl:Class ;
+                 rdfs:subClassOf :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anxiety_Disorder
+:Anxiety_Disorder rdf:type owl:Class ;
+                  rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anxiety_Disorder_Types
+:Anxiety_Disorder_Types rdf:type owl:Class ;
+                        rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Attention_Defict
+:Attention_Defict rdf:type owl:Class ;
+                  rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Autism
+:Autism rdf:type owl:Class ;
+        rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Avoidant_PD
+:Avoidant_PD rdf:type owl:Class ;
+             rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Behavioral_issues
+:Behavioral_issues rdf:type owl:Class ;
+                   rdfs:subClassOf :Adjustment_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Behavioral_therapy
+:Behavioral_therapy rdf:type owl:Class ;
+                    rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Beliefs
+:Beliefs rdf:type owl:Class ;
+         rdfs:subClassOf :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Beta_Blockers
+:Beta_Blockers rdf:type owl:Class ;
+               rdfs:subClassOf :Drug_Therapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Binge
+:Binge rdf:type owl:Class ;
+       rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Binge_Eating
+:Binge_Eating rdf:type owl:Class ;
+              rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar
+:Bipolar rdf:type owl:Class ;
+         rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar_I
+:Bipolar_I rdf:type owl:Class ;
+           rdfs:subClassOf :Mood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar_II
+:Bipolar_II rdf:type owl:Class ;
+            rdfs:subClassOf :Mood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Blindness
+:Blindness rdf:type owl:Class ;
+           rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Blurred_sence_of_identity
+:Blurred_sence_of_identity rdf:type owl:Class ;
+                           rdfs:subClassOf :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Boderline_PD
+:Boderline_PD rdf:type owl:Class ;
+              rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Body_image
+:Body_image rdf:type owl:Class ;
+            rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Breathing_rapidly
+:Breathing_rapidly rdf:type owl:Class ;
+                   rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bulima_Nervosa
+:Bulima_Nervosa rdf:type owl:Class ;
+                rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Cerebral_Tumours
+:Cerebral_Tumours rdf:type owl:Class ;
+                  rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Changing_in_clothing_style
+:Changing_in_clothing_style rdf:type owl:Class ;
+                            rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Childhood_Disorder_Types
+:Childhood_Disorder_Types rdf:type owl:Class ;
+                          rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Childhood_Disorders
+:Childhood_Disorders rdf:type owl:Class ;
+                     rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Childhood_Disorders_Factors
+:Childhood_Disorders_Factors rdf:type owl:Class ;
+                             rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Childhood_Disorders_Symptoms
+:Childhood_Disorders_Symptoms rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Childhood_Disorders_Treatments
+:Childhood_Disorders_Treatments rdf:type owl:Class ;
+                                rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Coginitive_Disorders
+:Coginitive_Disorders rdf:type owl:Class ;
+                      rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Coginitive_Disorders_Factors
+:Coginitive_Disorders_Factors rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Coginitive_Disorders_Symptoms
+:Coginitive_Disorders_Symptoms rdf:type owl:Class ;
+                               rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Coginitive_Disorders_Treatments
+:Coginitive_Disorders_Treatments rdf:type owl:Class ;
+                                 rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Cognitive_Disorder_Types
+:Cognitive_Disorder_Types rdf:type owl:Class ;
+                          rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Cognitive_Therapy
+:Cognitive_Therapy rdf:type owl:Class ;
+                   rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Complex_decision_making
+:Complex_decision_making rdf:type owl:Class ;
+                         rdfs:subClassOf :Coginitive_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conduct_Disorder
+:Conduct_Disorder rdf:type owl:Class ;
+                  rdfs:subClassOf :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conduct_disorder
+:Conduct_disorder rdf:type owl:Class ;
+                  rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Confused_thinking
+:Confused_thinking rdf:type owl:Class ;
+                   rdfs:subClassOf :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conversion_disorder
+:Conversion_disorder rdf:type owl:Class ;
+                     rdfs:subClassOf :Somatoform_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Cylothymic
+:Cylothymic rdf:type owl:Class ;
+            rdfs:subClassOf :Mood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Deceitful
+:Deceitful rdf:type owl:Class ;
+           rdfs:subClassOf :Childhood_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Deiting
+:Deiting rdf:type owl:Class ;
+         rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Delirium
+:Delirium rdf:type owl:Class ;
+          rdfs:subClassOf :Cognitive_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Delusions
+:Delusions rdf:type owl:Class ;
+           rdfs:subClassOf :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depandant_PD
+:Depandant_PD rdf:type owl:Class ;
+              rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depersonalization
+:Depersonalization rdf:type owl:Class ;
+                   rdfs:subClassOf :Dissociative_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depression
+:Depression rdf:type owl:Class ;
+            rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Derealization
+:Derealization rdf:type owl:Class ;
+               rdfs:subClassOf :Dissociative_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Destructive
+:Destructive rdf:type owl:Class ;
+             rdfs:subClassOf :Childhood_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Diabaties
+:Diabaties rdf:type owl:Class ;
+           rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Difficulty_in_controlling_worry
+:Difficulty_in_controlling_worry rdf:type owl:Class ;
+                                 rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Difficulty_in_relationships
+:Difficulty_in_relationships rdf:type owl:Class ;
+                             rdfs:subClassOf :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disagreeable
+:Disagreeable rdf:type owl:Class ;
+              rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disorder_Treatments
+:Disorder_Treatments rdf:type owl:Class ;
+                     owl:disjointWith :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disorders
+:Disorders rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disorders_Factors
+:Disorders_Factors rdf:type owl:Class ;
+                   owl:disjointWith :Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disorders_Subtypes
+:Disorders_Subtypes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disorders_Symptoms
+:Disorders_Symptoms rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_Disorder_Types
+:Dissociative_Disorder_Types rdf:type owl:Class ;
+                             rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_Disorders
+:Dissociative_Disorders rdf:type owl:Class ;
+                        rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_Disorders_Factors
+:Dissociative_Disorders_Factors rdf:type owl:Class ;
+                                rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_Disorders_Symptoms
+:Dissociative_Disorders_Symptoms rdf:type owl:Class ;
+                                 rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_Disorders_Treatments
+:Dissociative_Disorders_Treatments rdf:type owl:Class ;
+                                   rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_amnesia
+:Dissociative_amnesia rdf:type owl:Class ;
+                      rdfs:subClassOf :Dissociative_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_identity_disorder
+:Dissociative_identity_disorder rdf:type owl:Class ;
+                                rdfs:subClassOf :Dissociative_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Drug_Therapy
+:Drug_Therapy rdf:type owl:Class ;
+              rdfs:subClassOf :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#E-Physical
+:E-Physical rdf:type owl:Class ;
+            rdfs:subClassOf :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Easily_frustrated
+:Easily_frustrated rdf:type owl:Class ;
+                   rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Eating_Disorder_Types
+:Eating_Disorder_Types rdf:type owl:Class ;
+                       rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Eating_Disorders
+:Eating_Disorders rdf:type owl:Class ;
+                  rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Eating_Disorders_Factors
+:Eating_Disorders_Factors rdf:type owl:Class ;
+                          rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Eating_Disorders_Symptoms
+:Eating_Disorders_Symptoms rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Eating_Disorders_Treatments
+:Eating_Disorders_Treatments rdf:type owl:Class ;
+                             rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Electconvulsive_Therapy
+:Electconvulsive_Therapy rdf:type owl:Class ;
+                         rdfs:subClassOf :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Emotional_issues
+:Emotional_issues rdf:type owl:Class ;
+                  rdfs:subClassOf :Adjustment_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Emotions
+:Emotions rdf:type owl:Class ;
+          rdfs:subClassOf :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Environmental
+:Environmental rdf:type owl:Class ;
+               rdfs:subClassOf :Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Epilepsy
+:Epilepsy rdf:type owl:Class ;
+          rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Excessive_exercise
+:Excessive_exercise rdf:type owl:Class ;
+                    rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Extremely_energized
+:Extremely_energized rdf:type owl:Class ;
+                     rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factitious_Disorder_Types
+:Factitious_Disorder_Types rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factitious_Disorders
+:Factitious_Disorders rdf:type owl:Class ;
+                      rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factitious_Disorders_Factors
+:Factitious_Disorders_Factors rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factitious_Disorders_Symptoms
+:Factitious_Disorders_Symptoms rdf:type owl:Class ;
+                               rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factitious_Disorders_Treatments
+:Factitious_Disorders_Treatments rdf:type owl:Class ;
+                                 rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Factors
+:Factors rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Feeling_sad
+:Feeling_sad rdf:type owl:Class ;
+             rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Feeling_worthless
+:Feeling_worthless rdf:type owl:Class ;
+                   rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Financial
+:Financial rdf:type owl:Class ;
+           rdfs:subClassOf :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Genetics
+:Genetics rdf:type owl:Class ;
+          rdfs:subClassOf :Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Group_Family_Therapies
+:Group_Family_Therapies rdf:type owl:Class ;
+                        rdfs:subClassOf :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Guilty_after_stealing
+:Guilty_after_stealing rdf:type owl:Class ;
+                       rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hallusinations
+:Hallusinations rdf:type owl:Class ;
+                rdfs:subClassOf :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Head_Injury
+:Head_Injury rdf:type owl:Class ;
+             rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hearing_Loss
+:Hearing_Loss rdf:type owl:Class ;
+              rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Heart_Disease
+:Heart_Disease rdf:type owl:Class ;
+               rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Histrionoic_PD
+:Histrionoic_PD rdf:type owl:Class ;
+                rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Humanistic_therapy
+:Humanistic_therapy rdf:type owl:Class ;
+                    rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hurt_themselves
+:Hurt_themselves rdf:type owl:Class ;
+                 rdfs:subClassOf :Factitious_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hyperactivity_disorder
+:Hyperactivity_disorder rdf:type owl:Class ;
+                        rdfs:subClassOf :Childhood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hypochondriasis
+:Hypochondriasis rdf:type owl:Class ;
+                 rdfs:subClassOf :Somatoform_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#IBS
+:IBS rdf:type owl:Class ;
+     rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Imposed_on_other
+:Imposed_on_other rdf:type owl:Class ;
+                  rdfs:subClassOf :Factitious_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Imposed_on_self
+:Imposed_on_self rdf:type owl:Class ;
+                 rdfs:subClassOf :Factitious_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Impulse_Control_Disorders
+:Impulse_Control_Disorders rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Impulse_Control_Disorders_Factors
+:Impulse_Control_Disorders_Factors rdf:type owl:Class ;
+                                   rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Impulse_Control_Disorders_Symptoms
+:Impulse_Control_Disorders_Symptoms rdf:type owl:Class ;
+                                    rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Impulse_Control_Disorders_Treatments
+:Impulse_Control_Disorders_Treatments rdf:type owl:Class ;
+                                      rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Impulsive_Control_Disorder_Types
+:Impulsive_Control_Disorder_Types rdf:type owl:Class ;
+                                  rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Inability_to_cope_with_stress
+:Inability_to_cope_with_stress rdf:type owl:Class ;
+                               rdfs:subClassOf :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Increased_Heart_Rate
+:Increased_Heart_Rate rdf:type owl:Class ;
+                      rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Individual_Psychotherapy
+:Individual_Psychotherapy rdf:type owl:Class ;
+                          rdfs:subClassOf :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Intermittent_explosive_disorder
+:Intermittent_explosive_disorder rdf:type owl:Class ;
+                                 rdfs:subClassOf :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Irritable
+:Irritable rdf:type owl:Class ;
+           rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Jumpy
+:Jumpy rdf:type owl:Class ;
+       rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Kidney_Problem
+:Kidney_Problem rdf:type owl:Class ;
+                rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Kleptomania
+:Kleptomania rdf:type owl:Class ;
+             rdfs:subClassOf :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Lack_of_appetite
+:Lack_of_appetite rdf:type owl:Class ;
+                  rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Lack_of_energy
+:Lack_of_energy rdf:type owl:Class ;
+                rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Language_problem
+:Language_problem rdf:type owl:Class ;
+                  rdfs:subClassOf :Coginitive_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Liver_Disease
+:Liver_Disease rdf:type owl:Class ;
+               rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_attention
+:Loss_of_attention rdf:type owl:Class ;
+                   rdfs:subClassOf :Coginitive_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_personal_hygeine
+:Loss_of_personal_hygeine rdf:type owl:Class ;
+                          rdfs:subClassOf :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Lying_to_people
+:Lying_to_people rdf:type owl:Class ;
+                 rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Major_Depression
+:Major_Depression rdf:type owl:Class ;
+                  rdfs:subClassOf :Mood_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Major_Neurocognitive_disorder
+:Major_Neurocognitive_disorder rdf:type owl:Class ;
+                               rdfs:subClassOf :Cognitive_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Manipulative
+:Manipulative rdf:type owl:Class ;
+              rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Memory_Loss
+:Memory_Loss rdf:type owl:Class ;
+             rdfs:subClassOf :Coginitive_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mental_Health_problem
+:Mental_Health_problem rdf:type owl:Class ;
+                       rdfs:subClassOf :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mild_Neurocognitive_disorder
+:Mild_Neurocognitive_disorder rdf:type owl:Class ;
+                              rdfs:subClassOf :Cognitive_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mimic_symptoms
+:Mimic_symptoms rdf:type owl:Class ;
+                rdfs:subClassOf :Factitious_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_Disorder_Types
+:Mood_Disorder_Types rdf:type owl:Class ;
+                     rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_Disorders
+:Mood_Disorders rdf:type owl:Class ;
+                rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_Disorders_Factors
+:Mood_Disorders_Factors rdf:type owl:Class ;
+                        rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_Disorders_Sypmtoms
+:Mood_Disorders_Sypmtoms rdf:type owl:Class ;
+                         rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_Disorders_Treatments
+:Mood_Disorders_Treatments rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_swings
+:Mood_swings rdf:type owl:Class ;
+             rdfs:subClassOf :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Narcissistic_PD
+:Narcissistic_PD rdf:type owl:Class ;
+                 rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Nervous
+:Nervous rdf:type owl:Class ;
+         rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Numbness
+:Numbness rdf:type owl:Class ;
+          rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Obsessive_Compulsive_PD
+:Obsessive_Compulsive_PD rdf:type owl:Class ;
+                         rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Ongoing_gaps_in_memory
+:Ongoing_gaps_in_memory rdf:type owl:Class ;
+                        rdfs:subClassOf :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Oppositional_defiant_disorder
+:Oppositional_defiant_disorder rdf:type owl:Class ;
+                               rdfs:subClassOf :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pain_disorder
+:Pain_disorder rdf:type owl:Class ;
+               rdfs:subClassOf :Somatoform_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Panic_Disorder
+:Panic_Disorder rdf:type owl:Class ;
+                rdfs:subClassOf :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Paralysis
+:Paralysis rdf:type owl:Class ;
+           rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Paranoid_PD
+:Paranoid_PD rdf:type owl:Class ;
+             rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personal
+:Personal rdf:type owl:Class ;
+          rdfs:subClassOf :Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personality_Disorder_Types
+:Personality_Disorder_Types rdf:type owl:Class ;
+                            rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personality_Disorders
+:Personality_Disorders rdf:type owl:Class ;
+                       rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personality_Disorders_Factors
+:Personality_Disorders_Factors rdf:type owl:Class ;
+                               rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personality_Disorders_Symptoms
+:Personality_Disorders_Symptoms rdf:type owl:Class ;
+                                rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Personality_Disorders_Treatments
+:Personality_Disorders_Treatments rdf:type owl:Class ;
+                                  rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Physical
+:Physical rdf:type owl:Class ;
+          rdfs:subClassOf :Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Physical_Outbrust
+:Physical_Outbrust rdf:type owl:Class ;
+                   rdfs:subClassOf :Impulse_Control_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Physical_issues
+:Physical_issues rdf:type owl:Class ;
+                 rdfs:subClassOf :Adjustment_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pica
+:Pica rdf:type owl:Class ;
+      rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Play_therapy
+:Play_therapy rdf:type owl:Class ;
+              rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychodynamic_therapy
+:Psychodynamic_therapy rdf:type owl:Class ;
+                       rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychosurgery
+:Psychosurgery rdf:type owl:Class ;
+               rdfs:subClassOf :Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychotic_Disorders
+:Psychotic_Disorders rdf:type owl:Class ;
+                     rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychotic_Disorders_Factors
+:Psychotic_Disorders_Factors rdf:type owl:Class ;
+                             rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychotic_Disorders_Symptoms
+:Psychotic_Disorders_Symptoms rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psychotic_Disorders_Treatments
+:Psychotic_Disorders_Treatments rdf:type owl:Class ;
+                                rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Psycotic_Disorder_Types
+:Psycotic_Disorder_Types rdf:type owl:Class ;
+                         rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Purging
+:Purging rdf:type owl:Class ;
+         rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pyromania
+:Pyromania rdf:type owl:Class ;
+           rdfs:subClassOf :Impulsive_Control_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Reatrictive_food_intake
+:Reatrictive_food_intake rdf:type owl:Class ;
+                         rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Rehabilation
+:Rehabilation rdf:type owl:Class ;
+              rdfs:subClassOf :Individual_Psychotherapy .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Respiratory_Disorders
+:Respiratory_Disorders rdf:type owl:Class ;
+                       rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Responses
+:Responses rdf:type owl:Class ;
+           rdfs:subClassOf :Personal .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Rumination_disorder
+:Rumination_disorder rdf:type owl:Class ;
+                     rdfs:subClassOf :Eating_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizoaffective_Disorder
+:Schizoaffective_Disorder rdf:type owl:Class ;
+                          rdfs:subClassOf :Psycotic_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizoid_PD
+:Schizoid_PD rdf:type owl:Class ;
+             rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizopherenia
+:Schizopherenia rdf:type owl:Class ;
+                rdfs:subClassOf :Psycotic_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizophereniform
+:Schizophereniform rdf:type owl:Class ;
+                   rdfs:subClassOf :Psycotic_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizotypal_PD
+:Schizotypal_PD rdf:type owl:Class ;
+                rdfs:subClassOf :Personality_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Seizures
+:Seizures rdf:type owl:Class ;
+          rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Selective_mutism
+:Selective_mutism rdf:type owl:Class ;
+                  rdfs:subClassOf :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sence_of_impeding_danger
+:Sence_of_impeding_danger rdf:type owl:Class ;
+                          rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Significant_distress
+:Significant_distress rdf:type owl:Class ;
+                      rdfs:subClassOf :Dissociative_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sleep_Disorder
+:Sleep_Disorder rdf:type owl:Class ;
+                rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sleep_disturbance
+:Sleep_disturbance rdf:type owl:Class ;
+                   rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Social
+:Social rdf:type owl:Class ;
+        rdfs:subClassOf :Environmental .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Social_anxiety_disorder
+:Social_anxiety_disorder rdf:type owl:Class ;
+                         rdfs:subClassOf :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Social_withdrawl
+:Social_withdrawl rdf:type owl:Class ;
+                  rdfs:subClassOf :Eating_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatization_disorder
+:Somatization_disorder rdf:type owl:Class ;
+                       rdfs:subClassOf :Somatoform_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatoform_Disorder_Treatments
+:Somatoform_Disorder_Treatments rdf:type owl:Class ;
+                                rdfs:subClassOf :Disorder_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatoform_Disorder_Types
+:Somatoform_Disorder_Types rdf:type owl:Class ;
+                           rdfs:subClassOf :Disorders_Subtypes .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatoform_Disorders
+:Somatoform_Disorders rdf:type owl:Class ;
+                      rdfs:subClassOf :Disorders .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatoform_Disorders_Factors
+:Somatoform_Disorders_Factors rdf:type owl:Class ;
+                              rdfs:subClassOf :Disorders_Factors .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatoform_Disorders_Treatments
+:Somatoform_Disorders_Treatments rdf:type owl:Class ;
+                                 rdfs:subClassOf :Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Specific_phobias
+:Specific_phobias rdf:type owl:Class ;
+                  rdfs:subClassOf :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Strange_behaviour
+:Strange_behaviour rdf:type owl:Class ;
+                   rdfs:subClassOf :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Stress
+:Stress rdf:type owl:Class ;
+        owl:equivalentClass <http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_attentios/focus> ;
+        rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Suspicion
+:Suspicion rdf:type owl:Class ;
+           rdfs:subClassOf :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sweating
+:Sweating rdf:type owl:Class ;
+          rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Taking_risks
+:Taking_risks rdf:type owl:Class ;
+              rdfs:subClassOf :Personality_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Trauma
+:Trauma rdf:type owl:Class ;
+        rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Treatments
+:Treatments rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Trouble_on_sleeping
+:Trouble_on_sleeping rdf:type owl:Class ;
+                     rdfs:subClassOf :Anixety_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Tubularculosis
+:Tubularculosis rdf:type owl:Class ;
+                rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Unusual_movements
+:Unusual_movements rdf:type owl:Class ;
+                   rdfs:subClassOf :Psychotic_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Vitamin_B_Deficiency
+:Vitamin_B_Deficiency rdf:type owl:Class ;
+                      rdfs:subClassOf :Physical .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Voilation_of_rules
+:Voilation_of_rules rdf:type owl:Class ;
+                    rdfs:subClassOf :Childhood_Disorders_Symptoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Weakness
+:Weakness rdf:type owl:Class ;
+          rdfs:subClassOf :Somatoform_Disorders_Treatments .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Weight_change
+:Weight_change rdf:type owl:Class ;
+               rdfs:subClassOf :Mood_Disorders_Sypmtoms .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_attentios/focus
+<http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_attentios/focus> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf :Physical .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agiation
+:Agiation rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agoraphobia
+:Agoraphobia rdf:type owl:NamedIndividual ,
+                      :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Agressive
+:Agressive rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Alter_diagnostic_tests
+:Alter_diagnostic_tests rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anorxia_Nervosa
+:Anorxia_Nervosa rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Antisocial_PD
+:Antisocial_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Anxiety_Disorder
+:Anxiety_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Attention_Defict
+:Attention_Defict rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Autism
+:Autism rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Avoidant_PD
+:Avoidant_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Behavioral
+:Behavioral rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Binge
+:Binge rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Binge_Eating
+:Binge_Eating rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar
+:Bipolar rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar_I
+:Bipolar_I rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bipolar_II
+:Bipolar_II rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Blindness
+:Blindness rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Blurred_sence_of_identity
+:Blurred_sence_of_identity rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Body_image
+:Body_image rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Borderline_PD
+:Borderline_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Breathing_rapidly
+:Breathing_rapidly rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Bulima_Nervosa
+:Bulima_Nervosa rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Changing_in_clothing_style
+:Changing_in_clothing_style rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Complex_decision_making
+:Complex_decision_making rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conduct_Disorder
+:Conduct_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conduct_disorder
+:Conduct_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Confused_thinking
+:Confused_thinking rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Conversion_Disorder
+:Conversion_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Cylothymic
+:Cylothymic rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Deceitful
+:Deceitful rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Delirium
+:Delirium rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Delusions
+:Delusions rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depandant_PD
+:Depandant_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depersonalization
+:Depersonalization rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Depression
+:Depression rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Derealization
+:Derealization rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Destructive
+:Destructive rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dieting
+:Dieting rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Difficulty_in_Controlling_worry
+:Difficulty_in_Controlling_worry rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Difficulty_with_relationships
+:Difficulty_with_relationships rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disagreeable
+:Disagreeable rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_amnesia
+:Dissociative_amnesia rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Dissociative_identity_disorder
+:Dissociative_identity_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Disturbance_of_Conduct
+:Disturbance_of_Conduct rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Easily_frustrated
+:Easily_frustrated rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Emotional
+:Emotional rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Excessive_exercise
+:Excessive_exercise rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Extremely_energized
+:Extremely_energized rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Feeling_sad
+:Feeling_sad rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Guilty_after_stealing
+:Guilty_after_stealing rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hallusinations
+:Hallusinations rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hearing_Loss
+:Hearing_Loss rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Histrionoic_PD
+:Histrionoic_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hurt_themselves
+:Hurt_themselves rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hyperactivity_disorder
+:Hyperactivity_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Hypochondriasis
+:Hypochondriasis rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Imposed_on_other
+:Imposed_on_other rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Imposed_on_self
+:Imposed_on_self rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Inability_to_cope_with_stress
+:Inability_to_cope_with_stress rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Increased_Heart_rate
+:Increased_Heart_rate rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Intermittent_explosive_disorder
+:Intermittent_explosive_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Irritable
+:Irritable rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Jumpy
+:Jumpy rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Kleptomania
+:Kleptomania rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Lack_of_energy
+:Lack_of_energy rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Language_problem
+:Language_problem rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_appetite
+:Loss_of_appetite rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_attention
+:Loss_of_attention rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Loss_of_personal_hygeine
+:Loss_of_personal_hygeine rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Major_Depression
+:Major_Depression rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Major_Neurocognitive_disorder
+:Major_Neurocognitive_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Manipulative
+:Manipulative rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Memory_loss
+:Memory_loss rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mental_Health_problems
+:Mental_Health_problems rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mild_Neurocognitive_disorder
+:Mild_Neurocognitive_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mimic_symptoms
+:Mimic_symptoms rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Mood_swings
+:Mood_swings rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Narcissistic_PD
+:Narcissistic_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Nervous
+:Nervous rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Numbness
+:Numbness rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Obsessice_Compulsive_PD
+:Obsessice_Compulsive_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Ongoing_gaps_in_memory
+:Ongoing_gaps_in_memory rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Oppositional_defiant_disorder
+:Oppositional_defiant_disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pain_Disorder
+:Pain_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Panic_Disorder
+:Panic_Disorder rdf:type owl:NamedIndividual ,
+                         :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Paralysis
+:Paralysis rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Paranoid_PD
+:Paranoid_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Physical
+:Physical rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Physical_outburst
+:Physical_outburst rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pica
+:Pica rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Purging
+:Purging rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Pyromania
+:Pyromania rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Restrictive_Food_Intake
+:Restrictive_Food_Intake rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Rumination_Disorder
+:Rumination_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizoaffective_Disorder
+:Schizoaffective_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizoid_PD
+:Schizoid_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizopherenia
+:Schizopherenia rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizophereniform
+:Schizophereniform rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Schizotypal_PD
+:Schizotypal_PD rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Seizures
+:Seizures rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Selective_mutism
+:Selective_mutism rdf:type owl:NamedIndividual ,
+                           :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sense_of_impedingdanger
+:Sense_of_impedingdanger rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Significant_distress
+:Significant_distress rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sleep_disturbance
+:Sleep_disturbance rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Social_anxiety_disorder
+:Social_anxiety_disorder rdf:type owl:NamedIndividual ,
+                                  :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Social_withdrawl
+:Social_withdrawl rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Somatization_Disorder
+:Somatization_Disorder rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Specific_phobias
+:Specific_phobias rdf:type owl:NamedIndividual ,
+                           :Anxiety_Disorder_Types .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Stealing_item_not_needed
+:Stealing_item_not_needed rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Strange_behaviour
+:Strange_behaviour rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Stress
+:Stress rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Suspicion
+:Suspicion rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Sweating
+:Sweating rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Taking_risks
+:Taking_risks rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Trouble_in_sleeping
+:Trouble_in_sleeping rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Unspecified
+:Unspecified rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Unusual_movements
+:Unusual_movements rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Voilation_of_rules
+:Voilation_of_rules rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Weakness
+:Weakness rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#Weight_change
+:Weight_change rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#With_anxiety
+:With_anxiety rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#With_depressed_mood
+:With_depressed_mood rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#feeling_worthless
+:feeling_worthless rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/kamran/ontologies/2022/4/untitled-ontology-32#lying_to_people
+:lying_to_people rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
